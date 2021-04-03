@@ -1,0 +1,61 @@
+.artists {
+    padding: 5rem 0;
+    background-color: $light-grey;
+
+    h2, p {
+        text-align: center;
+        color: $dark;
+    }
+
+    h2  {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .day {
+        margin: 5rem 0;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.stages-container {
+    @include tablet {
+        @include grid(2, 5rem);
+    }
+
+    .stage {
+        padding-top: 2.5rem;
+    }
+
+    .stage-name {
+        color: $black;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+    }
+}
+
+.calendar {
+    padding: 0;
+    list-style: none;
+
+    li {
+        padding: 2.5rem;
+        font-weight: bold;
+        font-size: 1.6rem;
+
+        span {
+            font-weight: normal;
+        }
+    }
+}
+
+.icon-container {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.calendar li:nth-child(2n+1) {
+    background-color: darken($white, 4);
+}

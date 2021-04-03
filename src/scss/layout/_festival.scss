@@ -1,0 +1,29 @@
+.about-festival {
+    padding: 5rem 0;
+
+    @include tablet {
+        @include grid(2, 5rem);
+    }
+
+    .image {
+        img {
+            max-width: 100%;
+            border-radius: .3rem;
+        }
+    }
+}
+
+.festival-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .date {
+        font-weight: bold;
+    }
+
+    .text {
+        line-height: 1.5;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Música</title>
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./build/css/styles.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="main-navigation">
+                <a href="#artists">Artistas</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#tickets">Entradas</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="container video-content">
+                <h2>
+                    Rock & EDM Festival
+                    <span>Julio 2021, Madrid, España</span>
+                </h2>
+            </div>
+        </div>
+        <video controls autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <div class="about-festival container">
+        <div class="image">
+            <img src="build/images/imagen-vocalista.webp" alt="imagen vocalista">
+        </div>
+
+        <div class="festival-content">
+            <h2>Rock & EDM Festival</h2>
+            <p class="date">Julio 2021, Madrid, España</p>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente rerum sint aliquid nam blanditiis
+                laudantium enim beatae obcaecati hic, omnis nulla reprehenderit, minima aspernatur eveniet dolorum
+                Mollitia, vel sit.
+            </p>
+        </div>
+    </div>
+
+    <section id="artists" class="artists">
+        <h2>Artistas</h2>
+
+        <p class="day">Viernes 23</p>
+
+        <div class="stages-container container">
+            <div class="stage rock card">
+                <p class="stage-name">Escenario Rock</p>
+                <ul class="calendar">
+                    <li>24:00 | <span>Red Hot Chili Peppers</span></li>
+                    <li>22:00 | <span>The Killers</span></li>
+                    <li>20:00 | <span>Linkin Park</span></li>
+                    <li>18:00 | <span>Rammstein</span></li>
+                    <li>19:00 | <span>Rage Against The Machine</span></li>
+                    <li>17:00 | <span>Papa Roach</span></li>
+                </ul>
+            </div>
+
+            <div class="stage edm card">
+                <p class="stage-name">Escenario EDM</p>
+                <ul class="calendar">
+                    <li>24:00 | <span>David Guetta</span></li>
+                    <li>22:00 | <span>Zedd</span></li>
+                    <li>20:00 | <span>Eric Prydz</span></li>
+                    <li>19:00 | <span>Calvin Harris</span></li>
+                    <li>18:00 | <span>Hardwell</span></li>
+                    <li>17:00 | <span>Paul Van Dyk</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="day">Sábado 24</p>
+
+        <div class="stages-container container">
+            <div class="stage rock card">
+                <p class="stage-name">Escenario Rock</p>
+                <ul class="calendar">
+                    <li>24:00 | <span>AC/DC</span></li>
+                    <li>22:00 | <span>Metallica</span></li>
+                    <li>20:00 | <span>Perl Jam</span></li>
+                    <li>19:00 | <span>Limp Bizkit</span></li>
+                    <li>18:00 | <span>Korn</span></li>
+                    <li>17:00 | <span>Muse</span></li>
+                </ul>
+            </div>
+
+            <div class="stage edm card">
+                <p class="stage-name">Escenario EDM</p>
+                <ul class="calendar">
+                    <li>24:00 | <span>Armin van Buuren</span></li>
+                    <li>18:00 | <span>Carl Cox</span></li>
+                    <li>22:00 | <span>Richie Hawtin</span></li>
+                    <li>20:00 | <span>Steve Aoki</span></li>
+                    <li>19:00 | <span>Tiësto</span></li>
+                    <li>17:00 | <span>Martin Garrix</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery container">
+        <h2>Galería de imágenes</h2>
+
+        <ul class="image-gallery"></ul>
+    </section>
+
+    <section id="tickets" class="tickets">
+        <h2>Entradas</h2>
+
+        <div class="ticket-price container">
+            <p>Admisión General desde 189€</p>
+            <p>Entrada VIP desde 270€</p>
+        </div>
+
+        <div class="tickets-container container">
+            <div class="basic">
+                <ul class="ticket-info card">
+                    <li>Entrada + Hotel</li>
+                    <li>Hoteles cuidadosemente escogidos</li>
+                    <li>Desayuno gratuito</li>
+                    <li>Traslado ida y vuelta al hotel</li>
+                    <li>Acceso a todos los escenarios</li>
+                    <li>Desde 357€ por persona</li>
+                </ul>
+            </div>
+
+            <div class="premium">
+                <ul class="ticket-info card">
+                    <li>Entrada VIP + Hotel</li>
+                    <li>Hoteles cuidadosemente escogidos</li>
+                    <li>Desayuno gratuito</li>
+                    <li>Traslado ida y vuelta al hotel</li>
+                    <li>Acceso a todos los escenarios</li>
+                    <li>Acceso a la zona de comfort VIP</li>
+                    <li>Desde 425€ por persona</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+
+</html>
